@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Update()
 	{
+
 		rb.gravityScale = gravity - balloonforce * tm.bushtebi;
 		horizontalmove = Input.GetAxisRaw("Horizontal") * RunSpeed;
 		if (Input.GetButtonDown("Jump"))
