@@ -13,8 +13,17 @@ public class PlayerMovement : MonoBehaviour
 	bool jump = false;
 	bool crouch = false;
 	public tamashismenejeri tm;
+	[SerializeField] private float gravity = 1.5f;
+	[SerializeField] private float balloonforce = 0.1f;
+	private Rigidbody2D rb;
+	private void Start()
+	{
+		rb = GetComponent<Rigidbody2D>();
+	}
+
 	private void Update()
 	{
+		rb.gravityScale = gravity - balloonforce * tm.bushtebi;
 		horizontalmove = Input.GetAxisRaw("Horizontal") * RunSpeed;
 		if (Input.GetButtonDown("Jump"))
 		{
