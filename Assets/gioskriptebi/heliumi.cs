@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class heliumi : MonoBehaviour
 {
-    BoxCollider2D collider;
+    //BoxCollider2D collider;
     public GameObject gaberva;
     // Start is called before the first frame update
     void Start()
