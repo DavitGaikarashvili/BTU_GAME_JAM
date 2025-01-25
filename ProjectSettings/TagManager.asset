@@ -8,6 +8,8 @@ TagManager:
   - qvebi
   - miwa
   - bushtebi
+  - manager
+  - bushtis_yuti
   layers:
   - Default
   - TransparentFX

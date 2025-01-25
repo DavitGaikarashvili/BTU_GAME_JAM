@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6073b2e0ebfb7df4f86b0805b5616c92
+guid: 151043842705eef4b850d173f032d726
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,15 +37,15 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 2
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -84,19 +84,6 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -123,13 +110,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: noodles2_0
+      name: Run_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 9
+        x: 37
+        y: 0
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaa671704e6c46449e2f23ebdfe892a
+      internalID: 1419768692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
         width: 42
-        height: 45
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8fb2d85d154dca04d90dd6289b525e9f
-      internalID: 901941681
+      spriteID: 643f98a9a433be54f885a8f78b9943f3
+      internalID: -2084077561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: noodles2_1
+      name: Run_2
       rect:
         serializedVersion: 2
-        x: 75
-        y: 9
-        width: 46
-        height: 45
+        x: 281
+        y: 5
+        width: 54
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,41 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20b3b06b3e24e9146b5a52ceb3928aeb
-      internalID: 2090940364
+      spriteID: ecf39ecd07c84244696d641b804d0970
+      internalID: 1887234032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: noodles2_2
+      name: Run_3
       rect:
         serializedVersion: 2
-        x: 139
-        y: 9
-        width: 48
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b02068114ccb184d8b8ba74b961e7b8
-      internalID: -130879747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: noodles2_3
-      rect:
-        serializedVersion: 2
-        x: 203
-        y: 9
+        x: 411
+        y: 0
         width: 49
-        height: 45
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +187,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c40439fbff082743993148cedc9e443
-      internalID: -737057502
+      spriteID: 0fffc00a9edf1ce4395fde9f0b1ac95a
+      internalID: 2078452910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: noodles2_4
+      name: Run_4
       rect:
         serializedVersion: 2
-        x: 267
-        y: 9
+        x: 540
+        y: 0
+        width: 37
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837b227ce472ac94dade425c5be71896
+      internalID: 1492947106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c383a57971f8c428d293f8ab40d20c
+      internalID: 412355383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_6
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0e9b9651eae694d8d9969591766957
+      internalID: 1331797651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_7
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 5
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8e658a16007334b8a99eb71f9e7fb8
+      internalID: 103259883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_8
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 2
         width: 50
-        height: 45
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bce30e7dae98620409cd8a804a55c810
-      internalID: -1383020007
+      spriteID: 5c92a977c636819499c018ee35646355
+      internalID: -308379005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: noodles2_5
+      name: Run_9
       rect:
         serializedVersion: 2
-        x: 331
-        y: 9
-        width: 53
-        height: 45
+        x: 1182
+        y: 0
+        width: 35
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +313,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86ee5bf923294f141a07e7d7f7610414
-      internalID: -1902547064
+      spriteID: 11723068bfef7d74a94da466e2e4c7dc
+      internalID: -112918454
       vertices: []
       indices: 
       edges: []
@@ -259,12 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      noodles2_0: 901941681
-      noodles2_1: 2090940364
-      noodles2_2: -130879747
-      noodles2_3: -737057502
-      noodles2_4: -1383020007
-      noodles2_5: -1902547064
+      Run_0: 1419768692
+      Run_1: -2084077561
+      Run_2: 1887234032
+      Run_3: 2078452910
+      Run_4: 1492947106
+      Run_5: 412355383
+      Run_6: 1331797651
+      Run_7: 103259883
+      Run_8: -308379005
+      Run_9: -112918454
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

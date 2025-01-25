@@ -14,7 +14,6 @@ public class bushtebi_vizuali : MonoBehaviour
         Color lightColor = Random.ColorHSV(0, 1, 0.5f, 1, 0.7f, 1);
         spawned.GetComponent<SpriteRenderer>().color = lightColor;
         spawned.transform.SetParent(transform);
-        spawned.transform.localPosition = new Vector3(Random.Range(-1f, 1f), 0, 0);
-        Debug.Log("Hello");
+        spawned.transform.localPosition = new Vector3(Random.Range(-0.25f, 0.25f), 0, 0);
     }
 }

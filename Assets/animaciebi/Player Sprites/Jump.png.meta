@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0540e7718e6e7084fa3d1658b2c35515
+guid: 73a22663ca60edf4db6289421ed7e8af
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,17 +84,17 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,12 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_0
+      name: Jump_0
       rect:
         serializedVersion: 2
-        x: 47
+        x: 44
         y: 0
-        width: 28
+        width: 30
         height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3142fb83553f6a743ba69f41bde966a7
-      internalID: -1832681682
+      spriteID: 5010c202067f63c458c17b19785c8428
+      internalID: 355528591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_1
+      name: Jump_1
       rect:
         serializedVersion: 2
-        x: 175
+        x: 170
         y: 0
-        width: 28
-        height: 66
+        width: 35
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa667ef1da3fe0d47b5adb71649f820d
-      internalID: -1814691317
+      spriteID: 023ef1e4339c07643adf24de5b4e7d37
+      internalID: -365666319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_2
+      name: Jump_2
       rect:
         serializedVersion: 2
-        x: 303
+        x: 300
         y: 0
-        width: 28
-        height: 66
+        width: 32
+        height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4190ec6ce475c6546ae831afb18033e6
-      internalID: 933629455
+      spriteID: e5573e5791a97254eb03a7d53e0d8338
+      internalID: 76285674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_3
+      name: Jump_3
       rect:
         serializedVersion: 2
-        x: 431
-        y: 0
-        width: 28
-        height: 67
+        x: 420
+        y: 2
+        width: 45
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13d26c1b7e36d2142b17400c5c101e5c
-      internalID: -1244515163
+      spriteID: 45dfef900db85a14eaab57706ef0dff9
+      internalID: -1134703676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_4
+      name: Jump_4
       rect:
         serializedVersion: 2
-        x: 559
-        y: 0
-        width: 28
-        height: 67
+        x: 552
+        y: 7
+        width: 43
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 407fc7b6a3494ac45b0ef5bafa2e28de
-      internalID: -1468882936
+      spriteID: 85940465694ea444eadaf59ad583c301
+      internalID: 458851333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_5
+      name: Jump_5
       rect:
         serializedVersion: 2
-        x: 687
-        y: 0
-        width: 28
-        height: 66
+        x: 678
+        y: 9
+        width: 42
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +229,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17262318b7298734c9a57819d69c6b9e
-      internalID: 650269063
+      spriteID: 167c78c7ae80a544eb4c9fd838671da6
+      internalID: 1302584226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_6
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 2
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5300dc71f8e3740a2fe264b4b76df4
+      internalID: -735754847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_7
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c91924dff1f8e142800c0ccf97c1886
+      internalID: 825994186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_8
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 0
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc350db170740ac418b5eee2eabab50d
+      internalID: -909738840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_9
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 0
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e60eb6deec7bb4bb0b1ab4d83bb8c0
+      internalID: 1800138420
       vertices: []
       indices: 
       edges: []
@@ -246,12 +330,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle_0: -1832681682
-      Idle_1: -1814691317
-      Idle_2: 933629455
-      Idle_3: -1244515163
-      Idle_4: -1468882936
-      Idle_5: 650269063
+      Jump_0: 355528591
+      Jump_1: -365666319
+      Jump_2: 76285674
+      Jump_3: -1134703676
+      Jump_4: 458851333
+      Jump_5: 1302584226
+      Jump_6: -735754847
+      Jump_7: 825994186
+      Jump_8: -909738840
+      Jump_9: 1800138420
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

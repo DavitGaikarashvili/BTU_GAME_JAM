@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class tamashismenejeri : MonoBehaviour
 {
     // Start is called before the first frame update
-    int bushtebi;
+    [SerializeField] int bushtebi;
     public void addbushti()
     {
         bushtebi_Vizuali.spawnBalloon();
