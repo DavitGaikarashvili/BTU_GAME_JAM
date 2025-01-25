@@ -69,6 +69,7 @@ Transform:
   - {fileID: 1773699620143035857}
   - {fileID: 8081919652692146130}
   - {fileID: 6848173497844628887}
+  - {fileID: 3915538238597585143}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &181884430291825739
@@ -221,6 +222,55 @@ MonoBehaviour:
   controller: {fileID: 6150240965808485019}
   RunSpeed: 60
   horizontalmove: 0
+  tm: {fileID: 0}
+  gravity: 1.5
+  balloonforce: 0.1
+--- !u!1 &5425439410580904236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3915538238597585143}
+  - component: {fileID: 7743429019856469908}
+  m_Layer: 0
+  m_Name: bushtebi
+  m_TagString: bushtebi
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3915538238597585143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5425439410580904236}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.49, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6427811619304637280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7743429019856469908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5425439410580904236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c35cc255945c39429428ee7a38128ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Balloon: {fileID: 0}
+  GameManager: {fileID: 0}
 --- !u!1 &7273299382615658292
 GameObject:
   m_ObjectHideFlags: 0

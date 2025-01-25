@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2847105679241560226}
   - component: {fileID: 3094690948142419070}
   m_Layer: 0
-  m_Name: gamura
+  m_Name: gamura_tani
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4561697249052276125}
   m_Layer: 0
-  m_Name: gamuris modzraoba
+  m_Name: gamura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

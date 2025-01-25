@@ -8,16 +8,16 @@ public class mkvleli : MonoBehaviour
     //public int Respawn;
     public GameObject dd;
     public spawnpoint spauni;
-    
+    private tamashismenejeri tm;
     void Start()
     {
-        
+        tm = GameObject.FindWithTag("manager").GetComponent<tamashismenejeri>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,7 +25,12 @@ public class mkvleli : MonoBehaviour
         {
             die();
             dd.SetActive(false);
-            
+
+        }
+        if (other.CompareTag("bushti"))
+        {
+            Destroy(other.gameObject);
+            tm.removebushti();
         }
         void die()
         {
@@ -34,8 +39,7 @@ public class mkvleli : MonoBehaviour
         IEnumerator respawn(float duration)
         {
             yield return new WaitForSeconds(duration);
-            dd.transform.position = spauni.transform.position;
-            dd.SetActive(true);
+            tm.resetLevel();
         }
     }
 }
