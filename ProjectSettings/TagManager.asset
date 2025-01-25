@@ -10,6 +10,8 @@ TagManager:
   - bushtebi
   - manager
   - bushtis_yuti
+  - GabervaButton
+  - heliumi
   layers:
   - Default
   - TransparentFX

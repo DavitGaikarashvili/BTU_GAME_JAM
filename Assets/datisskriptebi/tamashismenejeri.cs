@@ -8,33 +8,35 @@ using UnityEngine.UI;
 public class tamashismenejeri : MonoBehaviour
 {
     // Start is called before the first frame update
-    [SerializeField] int bushtebi;
-    public void addbushti()
+    public int bushtebi;
+    int gaberili_bushtebi;
+
+    private bushtebi_vizuali bushtebi_Vizuali;
+
+    public int getGaberili()
     {
-        bushtebi_Vizuali.spawnBalloon();
-        bushtebi++;
+        return gaberili_bushtebi;
     }
-    public void removebushti()
+    public void gaberva()
     {
+        if (bushtebi <= 0 || gaberili_bushtebi >= 3) return;
+
         bushtebi--;
+        gaberili_bushtebi++;
+        bushtebi_Vizuali.spawnBalloon();
     }
-    public int getbushtebi()
+    public void dafushva()
     {
-        return bushtebi;
+        gaberili_bushtebi--;
     }
 
-    public TMP_Text bushtitext;
-    private bushtebi_vizuali bushtebi_Vizuali;
+
     void Start()
     {
         bushtebi_Vizuali = GameObject.FindWithTag("bushtebi").GetComponent<bushtebi_vizuali>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        bushtitext.text = "bushtebi " + bushtebi.ToString() + " / 3";
-    }
+
 
     public void resetLevel()
     {

@@ -30,7 +30,7 @@ public class mkvleli : MonoBehaviour
         if (other.CompareTag("bushti"))
         {
             Destroy(other.gameObject);
-            tm.removebushti();
+            tm.dafushva();
         }
         void die()
         {

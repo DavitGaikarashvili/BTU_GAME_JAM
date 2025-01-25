@@ -27,10 +27,9 @@ public class PlayerMovement : MonoBehaviour
 
 	private void Update()
 	{
-		rb.gravityScale = gravity - balloonforce * tm.getbushtebi();
+		rb.gravityScale = gravity - balloonforce * tm.getGaberili();
 		horizontalmove = Input.GetAxisRaw("Horizontal") * RunSpeed;
 		anim.SetFloat("horizontal", Math.Abs(Input.GetAxisRaw("Horizontal")));
-		Debug.Log(Math.Abs(Input.GetAxisRaw("Horizontal")));
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
@@ -48,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
 			lastbushti = other.gameObject;
 			other.gameObject.SetActive(false);
 			Destroy(other.gameObject);
-			tm.addbushti();
+			tm.bushtebi++;
 		}
 	}
 }
