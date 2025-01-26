@@ -11,6 +11,6 @@ public class mainmenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene("level_1");
+        SceneManager.LoadScene("datisscena");
     }
 }

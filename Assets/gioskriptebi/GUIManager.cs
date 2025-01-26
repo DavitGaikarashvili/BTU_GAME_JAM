@@ -22,6 +22,11 @@ public class GUIManager : MonoBehaviour
     void Update()
     {
         gasaberi.text = tm.bushtebi.ToString();
+        if (GameObject.FindGameObjectWithTag("Player").transform.position.y > 30)
+        {
+            gaberili.text = tm.getGaberili().ToString();
+            return;
+        }
         gaberili.text = tm.getGaberili().ToString() + " / 3";
     }
 }

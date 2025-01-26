@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6631081965451290416}
   - component: {fileID: 7696287019075333493}
   - component: {fileID: 3739294788060081944}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bushti
   m_TagString: bushti
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -177,7 +177,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 799392a0893abda49a25698fb703a301, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

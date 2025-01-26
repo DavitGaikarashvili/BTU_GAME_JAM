@@ -19,7 +19,7 @@ public class tamashismenejeri : MonoBehaviour
     }
     public void gaberva()
     {
-        if (bushtebi <= 0 || gaberili_bushtebi >= 3) return;
+        if (bushtebi <= 0 || (gaberili_bushtebi >= 3 && GameObject.FindGameObjectWithTag("Player").transform.position.y < 30)) return;
 
         bushtebi--;
         gaberili_bushtebi++;

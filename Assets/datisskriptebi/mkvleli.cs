@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 public class mkvleli : MonoBehaviour
 {
     //public int Respawn;
-    public GameObject dd;
-    public spawnpoint spauni;
     private tamashismenejeri tm;
     void Start()
     {
@@ -24,8 +22,6 @@ public class mkvleli : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             die();
-            dd.SetActive(false);
-
         }
         if (other.CompareTag("bushti"))
         {
